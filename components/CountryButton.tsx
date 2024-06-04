@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, TouchableOpacity, ViewStyle } from "react-native";
+import { Text, TouchableOpacity, ViewStyle, I18nManager } from "react-native";
 import { ItemTemplateProps } from "../types/Types";
 
 
@@ -23,7 +23,8 @@ export const CountryButton = ({ item, name, style, ...rest }: ItemTemplateProps)
             {item?.dial_code}
         </Text>
         <Text style={[{
-            flex: 1
+            flex: 1,
+            ...(I18nManager.isRTL && { textAlign: 'right' })
         }, style?.countryName]}>
             {name}
         </Text>

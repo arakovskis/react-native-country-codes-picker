@@ -395,7 +395,7 @@ export const CountryList = ({
     const renderItem = ({ item, index }: { item: CountryItem, index: number }) => {
         let itemName = (item?.name['en'] === 'Anguilla' && lang === 'ar') ? 'أنغويلا' : item?.name[lang];
         let checkName = itemName.length ? itemName : item?.name['en'];
-
+        
         return (
             <ItemTemplate
                 key={index}
