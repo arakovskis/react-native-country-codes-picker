@@ -195,7 +195,7 @@ export const CountryPicker = ({
     };
 
     const renderItem = ({ item, index }: { item: CountryItem, index: number }) => {
-        let itemName = (item?.name['en'] === 'Anguilla' && lang === 'ar') ? 'أنغويلا' : item?.name[lang];
+        let itemName = item?.name[lang];
         let checkName = itemName?.length ? itemName : item?.name['en'];
 
         return (
@@ -393,7 +393,7 @@ export const CountryList = ({
     }, [searchValue]);
 
     const renderItem = ({ item, index }: { item: CountryItem, index: number }) => {
-        let itemName = (item?.name['en'] === 'Anguilla' && lang === 'ar') ? 'أنغويلا' : item?.name[lang];
+        let itemName = item?.name[lang];
         let checkName = itemName.length ? itemName : item?.name['en'];
         
         return (

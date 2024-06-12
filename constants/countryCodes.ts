@@ -204,7 +204,7 @@ export const countryCodes: CountryItem[] = [
             "jp": "アンギラ",
             "he": "אנגווילה",
             "el": "Ανγκουίλα",
-            "ar": "",
+            "ar": "أنغويلا",
             "tr": "Anguilla"
         },
         "dial_code": "+1264",
@@ -3307,7 +3307,7 @@ export const countryCodes: CountryItem[] = [
             "da": "Kiribati",
             "ru": "Кирибати",
             "pl": "Kiribati",
-            "ua": "Kiribati",
+            "ua": "Кірібаті",
             "cz": "Kiribati",
             "by": "Кірыбаці",
             "pt": "Quiribáti",
@@ -3425,7 +3425,7 @@ export const countryCodes: CountryItem[] = [
         "name": {
             "en": "Kyrgyzstan",
             "da": "Kyrgyzstan",
-            "ru": "Kyrgyzstan",
+            "ru": "Кыргызстан",
             "pl": "Kirgistan",
             "ua": "Киргизстан",
             "cz": "Kyrgyzstán",
